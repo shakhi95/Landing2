@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+body {
+  font-family: "Vazir";
+}
+
+.overly {
+  background: linear-gradient(
+      -71deg,
+      rgba(20, 20, 20, 0.5) 0%,
+      rgba(20, 20, 20, 0.5) 50%,
+      transparent 50%
+    ),
+    url(../img/bg2.jpg) no-repeat center center/cover;
+}
+
+.shadow:hover {
+  transform: scale(1.01);
+}
